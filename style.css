@@ -1,0 +1,167 @@
+body{
+	margin: 0;
+}
+
+header{
+	background: peachpuff;
+	background-size: contain;
+	color: black;
+	padding: 15px 0px 5px 40px;
+	margin-top: 0px;
+}
+.head{
+	display: inline;
+	font-family: courier;
+	font-weight: 400;
+    font-size: 80px;
+    margin-top: 0px;
+    margin-right: 10px;
+    color: black;
+    font-style: bold;
+
+}
+nav ul{
+	display: inline;
+	font-style: bold;
+}
+nav ul li{
+	display: inline-block;
+	list-style-type: none;
+	color: black;
+	font-style: bold;
+	padding: 10px 10px 0px 15px;
+}
+nav ul li a{
+	color:black;
+	text-decoration: none;
+	font-size: 20px;
+}
+.first{
+	background-color:springgreen;
+	padding:25px 25px 26px 25px;
+}
+.divider{
+	background-color: springgreen;
+	height: 15px;
+}
+.second:hover{
+	background-color:springgreen;
+	padding: 25px;
+}
+.divider2{
+	background-image: url(images/sample.jpg);
+	width: 1000px;
+	height: 850px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-style: italic;
+	margin-left: 26%;
+}
+.homesub{
+	font-family: cursive;
+	padding: 18% 0% 0% 30%;
+	font-size: 27px;
+	color:peachpuff;
+}
+.homesip{
+	font-family: serif;
+	margin: 0% 0% 0% 30%;
+	padding-bottom: 0%;
+	font-size: 90px;
+	color: springgreen;
+	display: inline-block;
+}
+.homemus{
+	font-family: serif;
+	margin: 0% 0% 0% 30%;
+	padding-bottom: 0%;
+	font-size: 80px;
+	color: black;
+	background-color: rgba(0,0,0,0.3);
+	display: inline-block;
+}
+.homecele{
+	font-family: times;
+	margin: 0% 0% 0% 30%;
+	font-size: 70px;
+	color: peachpuff;
+	display: inline-block;
+}
+video{
+	padding-bottom:250px;
+}
+.pic1{
+	padding-top: 0px;
+	color: coral;
+	font-family: cursive;
+	font-size: 35px;
+}
+h1 strong {
+	font-family: cursive;
+	font-size: 60px;
+	color: coral;
+}
+.login{
+	width: 370px;
+	height: 580px;
+	background: white;
+	color: black;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px 40px 30px;
+}
+h1{
+	margin: 0;
+	padding: 0px 0px 20px;
+	text-align: center;
+	font-size: 40px;
+	font-style: italic;
+	color: springgreen;
+}
+p{
+	font-size: 25px;
+}
+.login input{
+	width: 250px;
+	margin-bottom: 20px;
+}
+.login input[type="name"],input[type="password"]
+{
+  border: none;
+  border-bottom: 1px solid black;
+  background: transparent;
+  outline: none;
+  height: 20px;
+  color: black;
+  font-size: 17px;
+
+}
+.login input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 45px;
+	background: coral;
+	color: black;
+	font-size: 20px;
+	border-radius: 30px;
+	width: 100%;
+}
+.login input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: peachpuff;
+}
+.login a{
+	text-decoration: none;
+	font-size: 20px;
+	line-height: 20px;
+	color: black;
+}
+.login a:hover{
+	color: springgreen;
+
+}
